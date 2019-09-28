@@ -10,7 +10,6 @@ body {
     box-sizing: border-box;
 }
 
-
 /* general */
 
 .container {
@@ -20,20 +19,15 @@ body {
     clear: both;
 }
 
-h1,
-h2,
-h3,
-p {
-    margin-bottom: 20px;
+h1, h2, h3, p {
+    margin-bottom: 20px
 }
 
 p:last-child {
     margin-bottom: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #4aaaa5;
@@ -46,11 +40,9 @@ h1 {
     border-bottom: 3px solid #dddddd;
 }
 
-h2,
-h3 {
+h2, h3 {
     font-size: 22px;
 }
-
 
 /* header */
 
@@ -98,7 +90,6 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-
 /* footer */
 
 footer {
@@ -113,14 +104,12 @@ footer {
     height: 50px;
 }
 
-h3,
-h2 {
+h3, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eeeeee;
 }
-
 
 /* main */
 
@@ -138,7 +127,6 @@ h2 {
     background: #ffffff;
     border: 1px solid #dddddd;
 }
-
 
 /* portfolio page */
 
@@ -182,7 +170,6 @@ h2 {
     margin-right: 25px;
 }
 
-
 /* contact page */
 
 #contact-form ul {
@@ -193,17 +180,12 @@ h2 {
     margin-bottom: 10px;
 }
 
-label,
-input[type=text],
-input[type=email],
-textarea {
+label, input[type=text], input[type=email], textarea {
     display: block;
     width: 100%;
 }
 
-input[type=text],
-input[type=email],
-textarea {
+input[type=text], input[type=email], textarea {
     height: 35px;
     padding: 0 10px;
     font-size: 14px;
