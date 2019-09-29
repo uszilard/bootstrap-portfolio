@@ -46,6 +46,7 @@ h2, h3 {
 
 /* header */
 
+/*
 #masthead {
     position: fixed;
     z-index: 99;
@@ -58,7 +59,7 @@ h2, h3 {
 }
 
 #logo {
-    float: left;
+    float: left!important;
     width: 250px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -73,7 +74,7 @@ h2, h3 {
 
 nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 25 px;
 }
 
 nav a {
@@ -88,6 +89,23 @@ nav a {
 
 nav a:first-child {
     border-left: 0 none;
+}
+*/
+
+/*
+container-i-p-c {
+    float: center!important;
+    width: 100%!important;
+    margin-left: 300px!important;
+    max-width: 960px!important;
+    height: 90px!important;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px!important;
+    font-weight: 700!important;
+    line-height: 90px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+    text-decoration: none!important;
 }
 
 /* footer */
@@ -171,36 +189,3 @@ h3, h2 {
 }
 
 /* contact page */
-
-#contact-form ul {
-    margin-bottom: 20px;
-}
-
-#contact-form li {
-    margin-bottom: 10px;
-}
-
-label, input[type=text], input[type=email], textarea {
-    display: block;
-    width: 100%;
-}
-
-input[type=text], input[type=email], textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-}
-
-textarea {
-    height: 200px;
-}
-
-input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-}
