@@ -10,6 +10,37 @@ body {
     box-sizing: border-box;
 }
 
+/* nav */
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+
+#navbarNav {
+    float: right;
+    margin-top: unset;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+
 /* main */
 
 #main-container {
@@ -25,6 +56,14 @@ body {
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 /* footer */
@@ -73,14 +112,6 @@ footer {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-}
-
-.auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
 }
 
 /* contact page */
@@ -183,7 +214,7 @@ nav a:first-child {
 */
 
 /*
-container-i-p-c {
+container {
     float: center!important;
     width: 100%!important;
     margin-left: 300px!important;
