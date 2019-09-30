@@ -26,11 +26,6 @@ body {
     background: #4aaaa5;
 }
 
-#navbarNav {
-    float: right;
-    margin-top: unset;
-}
-
 .nav-item {
     display: inline-block;
     padding-left: 15px;
