@@ -26,6 +26,12 @@ body {
     background: #4aaaa5;
 }
 
+#navbarNav {
+    float: right!important;
+    margin-top: unset!important;
+    text-align: right;
+}
+
 .nav-item {
     display: inline-block;
     padding-left: 15px;
